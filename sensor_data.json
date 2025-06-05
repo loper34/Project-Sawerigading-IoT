@@ -1,0 +1,23 @@
+{
+    "plant_area_1": {
+        "device_id": "plant_area_1",
+        "latitude": -1,
+        "longitude": -1,
+        "altitude": -1,
+        "satellites": -1,
+        "sensor1": {
+            "humidity_air": 55,
+            "temperature_air": 25.6,
+            "temperature_soil": 33.1,
+            "moisture_soil": 0,
+            "pump_status": "ON"
+        },
+        "sensor2": {
+            "humidity_air": 60,
+            "temperature_air": 25,
+            "temperature_soil": 31.9,
+            "moisture_soil": 9,
+            "pump_status": "ON"
+        }
+    }
+}

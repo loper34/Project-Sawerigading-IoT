@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Garden GPS Monitor</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Garden Monitor</h1>
+        <div id="map"></div>
+        <div id="info-panel">
+            <h2>Sensor Info (Select Device on Map)</h2>
+            <div id="sensor-data">
+                <p>Latitude: <span id="lat">N/A</span></p>
+                <p>Longitude: <span id="lon">N/A</span></p>
+                <p>Device ID: <span id="device-id">N/A</span></p>
+                <h3>Sensor 1:</h3>
+                <p>Suhu Udara: <span id="temp-air1">N/A</span> °C</p>
+                <p>Kelembaban Udara: <span id="humi-air1">N/A</span> %</p>
+                <p>Suhu Tanah: <span id="temp-soil1">N/A</span> °C</p>
+                <p>Kelembaban Tanah: <span id="moisture-soil1">N/A</span> %</p>
+                <p>Status Pompa 1: <span id="pump-status1">N/A</span></p>
+
+                <h3>Sensor 2:</h3>
+                <p>Suhu Udara: <span id="temp-air2">N/A</span> °C</p>
+                <p>Kelembaban Udara: <span id="humi-air2">N/A</span> %</p>
+                <p>Suhu Tanah: <span id="temp-soil2">N/A</span> °C</p>
+                <p>Kelembaban Tanah: <span id="moisture-soil2">N/A</span> %</p>
+                <p>Status Pompa 2: <span id="pump-status2">N/A</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
